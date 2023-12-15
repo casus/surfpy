@@ -29,7 +29,7 @@ To obtain partial derivatives, forming the Jacobian matrix $DQ_{G_{2,k}}\varphi_
 The surface integral:
 
 $\int_S f dS \approx \sum_{i=1,...,K}\int_{\square_2} f(\varphi(\mathrm{x}))\sqrt{\det((DQ_{d,k}\varphi_i(\mathrm{x}))^T DQ_{d,k}\varphi_i(\mathrm{x}))}d\mathrm{x}$
-$\approx \sum_{i=1,...,K} \sum_{\mathrm{p} \in P}\omega_{\mathrm{p}}f(\varphi_i(\mathrm{p})) \sqrt{\det((DQ_{d,k}\varphi_i(p))^T DQ_{d,k}\varphi_i(p))}$
+         $\approx \sum_{i=1,...,K} \sum_{\mathrm{p} \in P}\omega_{\mathrm{p}}f(\varphi_i(\mathrm{p})) \sqrt{\det((DQ_{d,k}\varphi_i(p))^T DQ_{d,k}\varphi_i(p))}$
 
 
 This approach provides a robust method for accurate surface integral computations in the context of `surfpy`.
@@ -44,7 +44,7 @@ To install, you can either download a .zip file or clone the directory with Git.
 
 Download a .zip of surfpy from:
 
-https://github.com/zavala92/surfpy/archive/refs/heads/main.zip
+https://github.com/casus/surfpy/archive/refs/heads/main.zip
 
 ### Option 2: Clone with Git
 
