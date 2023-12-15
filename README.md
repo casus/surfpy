@@ -50,7 +50,7 @@ https://github.com/casus/surfpy/archive/refs/heads/main.zip
 
 To clone the surfpy repository, first navigate in a terminal to where you want the repository cloned, then type:
 ```
-https://github.com/zavala92/surfpy
+https://github.com/casus/surfpy
 ```
 
 # Getting started 
