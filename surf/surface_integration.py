@@ -69,7 +69,7 @@ def integration(fun_handle, ls_function, grad_func, mesh, interp_deg):
 
     # Create a surface mesh from the computed points
     dom = SurfceMesh(x, y, z)
-    n = dom.x[0].shape[1]  # Assuming all subarrays in dom.x have the same shape
+    n = dom.x[0].shape[1] 
 
     # Flatten and concatenate the mesh data for function evaluation
     x_l = np.concatenate([subarray.flatten() for subarray in dom.x]).reshape(-1, 1)
